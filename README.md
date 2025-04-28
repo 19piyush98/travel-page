@@ -1,3 +1,6 @@
+# Live link
+Click on the [link](https://19piyush98.github.io/travel-page) to preview the page. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

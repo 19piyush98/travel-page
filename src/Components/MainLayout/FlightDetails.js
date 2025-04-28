@@ -1,8 +1,14 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import AirplaneImage from "../assets/flight.svg";
+import { useNavigate } from "react-router-dom";
 
 function FlightDetails() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    console.log("In here");
+    navigate("/onboarding");
+  };
   return (
     <Box sx={{ p: 2 }}>
       <Box
@@ -13,8 +19,8 @@ function FlightDetails() {
           p: 2,
           display: "flex",
           flexDirection: "column",
-          position: "relative", 
-          overflow: "hidden", 
+          position: "relative",
+          overflow: "hidden",
         }}
       >
         <Box
@@ -29,19 +35,20 @@ function FlightDetails() {
             variant="subtitle1"
             sx={{
               fontWeight: 700,
-              color: "#F5F5F5", 
-              fontSize: "16px", 
+              color: "#F5F5F5",
+              fontSize: "16px",
               fontFamily: "Mont",
-              lineHeight: "24px"
+              lineHeight: "24px",
             }}
           >
             Flight Details
           </Typography>
           <Button
+          onClick={handleClick}
             size="small"
             sx={{ color: "#FFFF00", textDecoration: "underline" }}
-          >
-            See all
+          > 
+            See all 
           </Button>
         </Box>
         <Typography
@@ -49,7 +56,7 @@ function FlightDetails() {
           sx={{
             fontWeight: 400,
             color: "#F5F5F5",
-            fontSize: "14px", 
+            fontSize: "14px",
             fontFamily: "Montserrat",
             mb: 1,
           }}
@@ -91,7 +98,7 @@ function FlightDetails() {
           alt="Airplane"
           sx={{
             position: "absolute",
-            bottom: 20, 
+            bottom: 20,
             right: 30,
             width: 150,
             height: "auto",

@@ -1,8 +1,13 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import AccommodationCard from "./AccomodationCard";
+import { useNavigate } from 'react-router-dom';
 
 function Accommodation() {
+  const navigate = useNavigate();
+  const handleClick = ()=> {
+    navigate('/onboarding');
+  }
   return (
     <Box sx={{ p: 2 }}>
       <Box
@@ -16,7 +21,7 @@ function Accommodation() {
         <Typography variant="subtitle1" sx={{ fontWeight: 500 }}>
           Accomodation
         </Typography>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={handleClick}>
           See all
         </Button>
       </Box>

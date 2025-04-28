@@ -1,8 +1,15 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import herosectionimage from "../assets/herosection.jpeg";
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+
+  const handleClick = ()=> {
+    navigate('/onboarding');
+  }
   return (
     <Box
       sx={{
@@ -32,6 +39,7 @@ const HeroSection = () => {
         <Button
           variant="contained"
           color="primary"
+          onClick={handleClick}
           sx={{
             borderRadius: 5,
             backgroundColor: "#F75940",

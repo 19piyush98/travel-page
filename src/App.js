@@ -4,7 +4,7 @@ import Onboarding from './Components/Onboarding';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/travel-page">
       <Routes>
         <Route path="/onboarding" element={<Onboarding />} />
         <Route path="/" element={<MainLayout />} />
