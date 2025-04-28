@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/travel-page/static/css/main.e6c13ad2.css",
-    "main.js": "/travel-page/static/js/main.ef052543.js",
+    "main.js": "/travel-page/static/js/main.912aa279.js",
     "static/js/453.ed3810f9.chunk.js": "/travel-page/static/js/453.ed3810f9.chunk.js",
     "static/media/tokyo.jpeg": "/travel-page/static/media/tokyo.f4620b56558ee44265b6.jpeg",
     "static/media/herosection.jpeg": "/travel-page/static/media/herosection.fc41f31d2661542c54cf.jpeg",
     "static/media/flight.svg": "/travel-page/static/media/flight.d1bc2e1f4f7deaa045ffb047ce983fc8.svg",
     "index.html": "/travel-page/index.html",
     "main.e6c13ad2.css.map": "/travel-page/static/css/main.e6c13ad2.css.map",
-    "main.ef052543.js.map": "/travel-page/static/js/main.ef052543.js.map",
+    "main.912aa279.js.map": "/travel-page/static/js/main.912aa279.js.map",
     "453.ed3810f9.chunk.js.map": "/travel-page/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ef052543.js"
+    "static/js/main.912aa279.js"
   ]
 }
